@@ -49,18 +49,18 @@ public class Main {
             System.out.println("If person's age is " + age + " person will have to go to university");
         } else if (age >= 24) {
             System.out.println("If person's age is " + age + " person will have to go to work");
-        } else if (age < 2) {
+        } else {
             System.out.println("Person is too young");
         }
     }
     public static void task5() {
         System.out.println("Task 5");
-        int age = 21;
+        int age = 14;
         if (age < 5) {
             System.out.println("If child's age is " + age + " child won't be able to ride on the rides");
         } else if (age >= 5 && age < 14) {
             System.out.println("If child's age is " + age + " child will be able to ride on the rides with an adult only");
-        } else if (age >= 14) {
+        } else {
             System.out.println("If child's age is " + age + " child will be able to ride on the rides without an adult");
         }
     }
